@@ -14,7 +14,7 @@ You figured out that some numbers have a modified single digit in their binary r
 - For `n = 37` and `k = 3`, the output should be
 `killKthBit(n, k) = 33`.
 
-`3710 = 1001012 ~> 1000012 = 3310`.
+<pre>37<sub>10</sub> = 100101<sub>2</sub> ~> 100001<sub>2</sub> = 33<sub>10</sub></pre>
 
 - For `n = 37` and `k = 4`, the output should be
 `killKthBit(n, k) = 37`.
