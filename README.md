@@ -69,6 +69,54 @@ Guaranteed constraints:
 `0 ≤ a[i] < 256`.
 
 - **[output] integer**
+________________________
 
+## 3. Range bit count
 
+You are given two numbers `a` and `b` where `0 ≤ a ≤ b`. Imagine you construct an array of all the integers from `a` to `b` inclusive. You need to count the number of 1s in the binary representations of all the numbers in the array.
+
+### Example
+
+For `a = 2` and `b = 7`, the output should be
+`rangeBitCount(a, b) = 11`.
+
+Given `a = 2` and `b = 7` the array is: `[2, 3, 4, 5, 6, 7]`. Converting the numbers to binary, we get `[10, 11, 100, 101, 110, 111]`, which contains `1 + 2 + 1 + 2 + 2 + 3 = 11` 1s.
+
+### Input/Output
+
+- **[input] integer a**
+
+Guaranteed constraints:
+`0 ≤ a ≤ b`.
+
+- **[input] integer b**
+
+Guaranteed constraints:
+`a ≤ b ≤ 10`.
+
+- **[output] integer**
+________________________
+
+## 4. Mirror Bits
+
+Reverse the order of the bits in a given integer.
+
+### Example
+
+- For `a = 97`, the output should be
+`mirrorBits(a) = 67`.
+
+`97` equals to `1100001` in binary, which is `1000011` after mirroring, and that is `67` in base `10`.
+
+- For `a = 8`, the output should be
+`mirrorBits(a) = 1`.
+
+### Input/Output
+
+- **[input] integer a**
+
+Guaranteed constraints:
+`5 ≤ a ≤ 105`.
+
+- **[output] integer**
 
